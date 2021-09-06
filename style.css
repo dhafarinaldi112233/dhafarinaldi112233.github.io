@@ -1,0 +1,345 @@
+body {
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("fotobackgoundd.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  }
+  .jumbotron {
+    
+     background-color: rgb(182, 129, 112);
+      text-align: center;
+      
+  }
+  
+  .jumbotron .display-4 {
+    
+      margin-top: 50px;
+      font-family: "Raleway", sans-serif;
+      
+  }
+  
+  .jumbotron hr {
+      border-color: rgb(216, 204, 191);
+     
+  }
+  
+  
+  
+  .about_person_area {
+      padding: 50px;
+      background: #fff;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    
+    .about_person_area .person_img {
+      max-width: 400px;
+      margin-left: -10px;
+    }
+    
+    .about_person_area .person_img img {
+      max-width: 100%;
+    }
+    
+    
+    .about_person_area .person_details {
+      margin-left: -10px;
+    }
+    
+    .about_person_area .person_details h3 {
+      font-size: 36px;
+      color: #333333;
+      text-transform: uppercase;
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+    
+    .about_person_area .person_details h3 span {
+      color: #725f3c;
+    }
+    
+    .about_person_area .person_details h4 {
+      
+      font-size: 18px;
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      color: #666666;
+      padding-bottom: 15px;
+    }
+    
+    .about_person_area .person_details p {
+      font-size: 13px;
+      line-height: 26px;
+      color: #333333;
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+    }
+    
+    .about_person_area .person_details .person_information {
+      padding: 5px 0px 10px 0px;
+    }
+    
+    .about_person_area .person_details .person_information ul {
+      display: inline-block;
+      padding-left: 2px;
+    }
+    
+   .about_person_area .person_details .person_information ul li  {
+      font-size: 13px;
+      line-height: 26px;
+      color: #333333;
+      font-family: "Raleway", sans-serif;
+  
+    }
+    
+    .about_person_area .person_details .person_information ul + ul {
+      padding-left: 20px;
+    }
+    
+    .about_person_area .person_details .person_information ul + ul li {
+      font-size: 13px;
+      line-height: 26px;
+      color: #666666;
+      font-family: "Raleway", sans-serif;
+    }
+    
+    .social_icon li {
+      display: inline-block;
+      padding: 5px;
+    }
+    
+    .social_icon li a {
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      border: 1px solid #677fb5;
+      display: block;
+      line-height: 40px;
+      font-size: 18px;
+      border-radius: 5px;
+      transition: all 400ms linear 0s;
+      color: #677fb5;
+    }
+    
+    .social_icon li:nth-child(2) a {
+      color: #70c2e9;
+      border-color: #70c2e9;
+    }
+    
+    .social_icon li:nth-child(2):hover a {
+      background: #70c2e9;
+    }
+    
+    .social_icon li:nth-child(3) a {
+      color: #ca4c87;
+      border-color: #ca4c87;
+    }
+    
+    .social_icon li:nth-child(3):hover a {
+      background: #ca4c87;
+    }
+    
+    .social_icon li:nth-child(4) a {
+      color: #5ccf7f;
+      border-color: #5ccf7f;
+    }
+    
+    .social_icon li:nth-child(4):hover a {
+      background: #5ccf7f;
+    }
+    
+    .social_icon li:nth-child(5) a {
+      color: #e71d1d;
+      border-color: #e71d1d;
+    }
+    
+    .social_icon li:nth-child(5):hover a {
+      background: #e71d1d;
+    }
+    
+    
+    .social_icon li:hover a {
+      background: #677fb5;
+      color: #fff;
+    }
+  .DAILY h1 {
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+     padding: 100px;
+      background: #fff;
+      margin-top: 40px;
+      margin-bottom: 100px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+  }
+  
+  .DAILY img{
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .tutor-list {
+    
+    position: relative;
+    display: flex;
+    
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 40%;
+    
+}
+
+.kartu-tutor p {
+    margin-left: 40px;
+    font-weight: 10px;
+    font-size: 20px;
+    
+    color: #070707;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+  
+}
+.SKILL h1 {
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+   padding: 70px;
+    background: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.SKILL img{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.posisi-foto {
+  
+  position: relative;
+  display: flex;
+  
+}
+
+.posisi-foto1 {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.posisi-foto1 img {
+  width: 40%;
+  
+}
+
+.posisi-foto1 p {
+  margin-left: 40px;
+  font-weight: 10px;
+  font-size: 20px;
+  padding-top: 20px;
+  color: #070707;
+}
+.posisi-foto1 h1{
+  margin-left: 34px;
+  font-weight: 10px;
+  font-size: 30px;
+  padding-top: 20px;
+  color: #070707;
+}
+
+.partner-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-partner {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-partner img {
+  width: 150px;
+
+}
+
+.EDUCATION h1 {
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+   padding: 100px;
+    background: #fff;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.EDUCATION img{
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.logosekolah {
+  
+  position: relative;
+  display: flex;
+  
+}
+
+.logosekolah1 {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.logosekolah1 img {
+  width: 80%;
+  
+}
+
+.logosekolah1 p {
+  margin-left: 40px;
+  font-weight: 10px;
+  font-size: 20px;
+  padding-top: 20px;
+  color: #070707;
+}
+
+.partner-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-partner {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-partner img {
+  width: 150px;
+}
